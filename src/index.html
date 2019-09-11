@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>🍩 Factory</title>
+</head>
+<body>
+    <h1>Grass and Cider's Custom Donut Bakery</h1>
+    <h2>Order a Custom Donut:</h2>
+    <div class="donut-container">
+        <label for="donutName">Name your creation:</label>
+        <input class="dropdown" id="name-input"></input>
+        <label for="types">Batter Type:</label>
+        <select class="dropdown" id="type-dropdown"></select>
+        <label for="flavors">Batter Flavor:</label>
+        <select class="dropdown" id="flavor-dropdown"></select>
+        <label for="glazes">Glaze:</label>
+        <select class="dropdown" id="glaze-dropdown"></select>
+        <label for="toppings">Topping:</label>
+        <select class="dropdown" id="topping-dropdown"></select>
+        <button id="donut-btn">Create Custom Donut</button>
+    </div>
+    <h2>Recent Donut 🍩rders:</h2>
+    <div class="donut-container" id="donut-results">
+    </div>
+
+    <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>
