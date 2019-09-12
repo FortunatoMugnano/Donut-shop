@@ -45,3 +45,10 @@ body {
     align-self: center;
     margin: 0 2px 0 5px;
 }
+#main {
+    display: flex;
+}
+#donutForm {
+    display: flex;
+    
+}

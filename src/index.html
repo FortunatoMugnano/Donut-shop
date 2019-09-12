@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="./styles/main.css">
     <title>🍩 Factory</title>
 </head>
+
 <body>
     <h1>Grass and Cider's Custom Donut Bakery</h1>
     <h2>Order a Custom Donut:</h2>
@@ -25,9 +27,26 @@
         <button id="donut-btn">Create Custom Donut</button>
     </div>
     <h2>Recent Donut 🍩rders:</h2>
-    <div class="donut-container" id="donut-results">
+    <div id="main">
+        <div class="donut-container" id="donut-results">
+        </div>
+
+
+        <section id="donutForm">
+            <form>
+                <fieldset class="fieldset">
+                    <input type="hidden" id="donutId" value="">
+                    <label for="donutName">Name</label>
+                    <input type="text" name="donutName" id="donutName">
+                </fieldset>
+                <button id="saveDonut">Save Donut</button>
+            </form>
+        </section>
+
+            
     </div>
 
     <script type="module" src="./scripts/main.js"></script>
 </body>
+
 </html>
